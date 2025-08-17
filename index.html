@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CTET परीक्षा की तैयारी</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- हेडर -->
+  <header class="header">
+    <div class="brand">
+      <span class="logo">CTET</span>
+      <h1 class="title">CTET परीक्षा की तैयारी</h1>
+    </div>
+    <p class="muted header-instruction">किसी विषय पर क्लिक करें — बाएँ साइड में उसके टॉपिक्स दिखेंगे।</p>
+    <nav id="subjectButtons" class="subject-buttons">
+      <!-- JS से सब्जेक्ट बटन आएँगे -->
+    </nav>
+  </header>
+
+  <!-- मुख्य लेआउट -->
+  <div class="layout">
+    <!-- बाएँ: साइड टॉपिक मेन्यू -->
+    <aside class="sidebar">
+      <div class="sidebar-head">टॉपिक्स</div>
+      <nav id="topicList" class="topic-list">
+        <!-- JS से टॉपिक्स आएँगे -->
+      </nav>
+    </aside>
+
+    <!-- दाईं ओर: कंटेंट -->
+    <main class="content">
+      <section id="contentArea" class="content-area">
+        <h2>स्वागत है!</h2>
+        <p>टॉपिक चुनते ही यहाँ कंटेंट दिखाई देगा।</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
